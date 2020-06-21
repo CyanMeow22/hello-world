@@ -1,0 +1,6 @@
+length = float(input("Length: "))
+
+width = float(input("Width: "))
+
+print("For", length * width, "m2 that
+will be", length * width * 3.5)
