@@ -4,7 +4,6 @@ age = int(input("Enter age: "))
 while age < MIN_AGE or age > MAX_AGE:
 print("Please enter an age ({}-{})".format(MIN_AGE, MAX_AGE))
 age = int(input("Enter age: "))
-
 if age % 2 == 0:
 print("Your age is even")
 else:
